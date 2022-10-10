@@ -1,7 +1,7 @@
 day = "Saturday"
 
-if day == 'Sunday'
-    lunch = 'special'
-else
-    lunch = 'normal'
+if day == 'Sunday'  # se o dia é domingo
+    lunch = 'special'  # então o almoço é especial
+else                    # senao
+    lunch = 'normal'   # o almoço é normal
 end
